@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+</head>
+<body>
+    <h3 class="text-primary text-center mt-4">Get your fav cocktail here</h3>
+    <div class="input-group my-4 w-50 mx-auto">
+        <input id="input" type="text" class="form-control" placeholder="type your cocktail name" aria-label="Recipient's username"
+            aria-describedby="button-addon2">
+        <button onclick="loadDetails()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+    </div>
+
+    <section class="container mb-4">
+        <div id="details" class="row g-4 d-flex justify-content-center">
+            
+        </div>
+    </section>
+    <section class="container">
+        <div id="cocktail" class="row row-cols-1 row-cols-md-3 g-4">
+            
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="js/cocktail.js"></script>
+</body>
+</html>
